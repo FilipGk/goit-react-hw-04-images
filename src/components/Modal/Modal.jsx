@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
 import style from './Modal.module.css';
 
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.getElementById('root');
 
 const Modal = ({ largeImageURL, tags, onClose }) => {
   useEffect(() => {
